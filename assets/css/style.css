@@ -1,0 +1,192 @@
+@import url(./fonts.css);
+@import url(./partials/_variables.css);
+
+
+
+
+.head .main-menu .navbar .navbar-brand{
+    padding: 0.2rem 0.5rem;
+}
+
+.head .main-menu .navbar{
+    padding: 1rem 10rem;
+}
+
+.head .main-menu .nav-item .nav-link{
+    
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: var(--title-color);
+    line-height: 2px;
+    font-size: 15px;
+}
+
+.head .main-menu .navbar-nav .active a{
+    color: rgb(74, 9, 148);
+} 
+.head .main-menu .navbar-nav a:hover{
+    color: rgb(74, 9, 148);
+}
+
+.site-main .site-banner{
+    background: url(../img/banner/home-banner.png) no-repeat;
+    background-position: 0% 50%;
+}
+.site-main .site-banner .site-title h3{
+    padding-top: 20%;
+    font-weight: 500;
+}
+.site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.site-main .site-banner .banner-image>img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+.title-text{
+    font: normal bold 50px/72px 'Roboto', sans-serif;
+}
+
+
+
+.btn-primary{
+    background-image: linear-gradient(90deg, #4458dc 0%,#854fee 100%);
+    text-transform: uppercase;
+
+}
+.btn-primary:hover{
+    background: white;
+    color: black;
+    font-weight: normal;
+
+}
+.btn-primary::after{
+    background: var(--gradient-color);
+}
+.btn-outline-primary:hover{
+    background-image: linear-gradient(90deg,#4458dc 0%,#854fee 100%);
+    text-transform: uppercase;
+}
+.btn-outline-primary::after{
+    background: var(--gradient-color);
+    text-transform: uppercase;
+}
+
+
+.site-main .about-area{
+    padding: 6rem 5rem;
+}
+
+.site-main .about-area .about-title h2>span{
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 21px;
+    font-weight: bold;
+}
+
+.site-main .about-area .about-title .paragraph>p{
+    padding: 0.6rem 0;
+}
+p .para{
+    color: var(--text-colot);
+    
+}
+
+
+.site-main .skill-area{
+    padding: 1rem 12rem;
+    margin-bottom: 4rem;
+}
+
+.site-main .skill-area .upper-row .col-md-4{
+    display: flex;
+    justify-content: center;
+}
+
+.site-main .skill-area .upper-row .col-md-4>.single-skill{
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 1.8rem 0.4rem;
+    margin: 0.9rem 0;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+.site-main .skill-area .upper-row .col-md-4>.single-skill>img{
+    width: 50%;
+}
+.site-main .skill-area .upper-row .col-md-4>.single-skill:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+
+.site-main .skill-area .upper-row .col-md-4>.single-skill>img:hover{
+    filter: brightness(0.15);
+}
+
+.site-main .skill-area .skill-info{
+    padding-left: 1rem;
+    z-index: 5;
+}
+
+.site-main .skill-area .skill-info span{
+    display: block;
+}
+
+.site-main .skill-area .skill-info .years-area{
+    background: url(../img/client-info-bg.png) no-repeat 45px 20px;
+    padding: 2rem 0;
+    width: 40rem;
+    height: 18rem;
+    padding-left: 8rem;
+    position: relative;
+    
+}
+
+.site-main .skill-area .skill-info .bg-panel{
+    position: absolute;
+    left: -190px;
+    top: 0;
+    background-color: burlywood;
+    width: 400px;
+    height: 400px;
+    margin-left: 340px;
+    z-index: -5;
+}
+
+.site-main .skill-area .skill-info .years-area .years{
+    font-weight: bold;
+    font-size: 84px;
+    line-height: 40px;
+    color: var(--primary-color2);
+    z-index: 2;
+}
+.site-main .skill-area .skill-info .years-area h2>span{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+}
+.site-main .skill-area .skill-info .call-area{
+    padding-left: 12rem;
+}
