@@ -16,4 +16,10 @@ $(document).ready(function(){
     
     $('.projects .btn-grp #btn1').trigger('click');
 
+    $('.projects .grid .test-popup-link').magnificPopup({
+        type: 'image',
+        gallery:{enabled:true}
+        // other options
+      });
+
     })

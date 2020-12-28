@@ -193,7 +193,9 @@ p .para{
 
 
 .site-main .services{
-    padding: 7rem 2rem;
+    /* padding: 1rem 2rem;
+    padding-top: 20px; */
+    padding-top: -50px;
 }
 .site-main .services .services-title{
     padding: 0.14rem;
@@ -243,4 +245,11 @@ p .para{
 button:focus, button:active, button:hover ,.btn:active, .btn.active{
     outline: 0px !important;
     box-shadow: none !important;
+}
+.projects .project .img a img{
+    margin: 2px;
+}
+.projects .project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+    
 }
