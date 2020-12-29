@@ -1,7 +1,10 @@
 @import url(./fonts.css);
 @import url(./partials/_variables.css);
 
-
+*{
+    scroll-behavior: smooth;
+}
+   
 
 
 .head .main-menu .navbar .navbar-brand{
@@ -31,7 +34,7 @@
 }
 
 .site-main .site-banner{
-    background: url(../img/banner/home-banner.png) no-repeat;
+    background: url(../img/banner/home-banner1.png) no-repeat;
     background-position: 0% 50%;
 }
 .site-main .site-banner .site-title h3{
@@ -40,9 +43,9 @@
 }
 .site-main .site-banner .site-title h3::after{
     content: "";
-    height: 2px;
+    height: 4px;
     width: 18vw;
-    background: black;
+    background: rgb(14, 3, 117);
     display: inline-block;
     margin-left: 5%;
     transform: translateY(-10px);
@@ -164,16 +167,7 @@ p .para{
     
 }
 
-.site-main .skill-area .skill-info .bg-panel{
-    position: absolute;
-    left: -190px;
-    top: 0;
-    background-color: burlywood;
-    width: 400px;
-    height: 400px;
-    margin-left: 340px;
-    z-index: -5;
-}
+
 
 .site-main .skill-area .skill-info .years-area .years{
     font-weight: bold;
@@ -189,6 +183,10 @@ p .para{
 }
 .site-main .skill-area .skill-info .call-area{
     padding-left: 12rem;
+}
+.skill-img img{
+    padding: 0.2rem 0;
+    width: 40rem;
 }
 
 
@@ -321,4 +319,61 @@ width: auto;
     font-weight: 700;
     font-size: 25px;
     line-height: 12px;
+}
+
+
+.site-main .certificates{
+    /* padding: 0rem 0; */
+    padding-top: -15px;
+    
+
+}
+.site-main .certificates .btn-cert-grp button{
+    background: transparent;
+    border: none;
+    font: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130px;
+}
+.site-main .certificates .btn-cert-grp button+button{
+    padding-left: 1rem;
+}
+
+.site-main .certificates .grid .project>.title h4{
+    font: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 12px;
+}
+
+button:focus, button:active, button:hover ,.btn:active, .btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+.certificates .project .img a img{
+    margin: 2px;
+}
+.certificates .project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+    
+}
+.skill-title h1 .skill-title-font{
+    font: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 12px;
+    
+}
+.backtop{
+   
+    box-sizing: border-box;
+    position: fixed;
+    top: 90%;
+    
+     left: calc(97% - 40px); 
+    transition: 0.3s;
+    cursor: pointer;
+    z-index: 5;
+
 }
