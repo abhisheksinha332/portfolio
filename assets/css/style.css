@@ -120,33 +120,33 @@ p .para{
     margin-bottom: 4rem;
 }
 
-.site-main .skill-area .upper-row .col-md-4{
+.site-main .skill-area .upper-row .col-md-3{
     display: flex;
     justify-content: center;
 }
 
-.site-main .skill-area .upper-row .col-md-4>.single-skill{
+.site-main .skill-area .upper-row .col-md-3>.single-skill{
     border: 1px solid var(--border-color);
     text-align: center;
-    padding: 1.8rem 0.4rem;
+    padding: 1rem 0.4rem;
     margin: 0.9rem 0;
-    width: 180px;
+    width: 190px;
     height: 100px;
     cursor: pointer;
     transition: transform 0.4s ease;
 }
 
-.site-main .skill-area .upper-row .col-md-4>.single-skill>img{
-    width: 50%;
+.site-main .skill-area .upper-row .col-md-3>.single-skill>img{
+    width: 60%;
 }
-.site-main .skill-area .upper-row .col-md-4>.single-skill:hover{
+.site-main .skill-area .upper-row .col-md-3>.single-skill:hover{
     box-shadow: var(--box-shadow);
     transform: scale(1.1);
 }
-
+/* 
 .site-main .skill-area .upper-row .col-md-4>.single-skill>img:hover{
     filter: brightness(0.15);
-}
+} */
 
 .site-main .skill-area .skill-info{
     padding-left: 1rem;
